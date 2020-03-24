@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	{% if title %}
-	<title>Django Blog - {{ title }}</title>
-	{% else %}
-	<title>Django Blog</title>
-	{% endif %}	
-</head>
+{% extends "blog/base.html" %}
 
-<body>
-	<h1>Blog Home (from template)</h1>
+{% block content %}
 	{% for post in posts %}
 		<h2>{{ post.title }}</h2>
 		<p>By {{ post.author }}</p>
 		<p>{{ post.content }}</p>
 	{% endfor %}
-</body>
-</html>
+{% endblock content %}
