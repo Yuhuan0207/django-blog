@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	{% if title %}
+	<title>Django Blog - {{ title }}</title>
+	{% else %}
+	<title>Django Blog</title>
+	{% endif %}	
 </head>
+
 <body>
 	<h1>Blog about(from template)</h1>
 </body>
