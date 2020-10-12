@@ -2,13 +2,11 @@ CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
- * Requirements
- * Recommended modules
  * Installation
- * Configuration
- * Troubleshooting
- * FAQ
+ * Changelog
+ * Roadmap
  * Maintainers
+ * References
 
 
 # Introduction
@@ -17,7 +15,7 @@ Tech stack of the project:
 - Backend
 	- Database: sqlite3 for development, postgresql for production
 	- MVC framework: Django
-	- Programming language: Python
+	- Programming language: Python3
 
 - Frontend
 	- Bootstrap
@@ -35,6 +33,9 @@ Tech stack of the project:
 ## Roadmap
 More upcoming features recorded in [here](roadmap.md)
 
+
+## Maintainer
+- Yuhuan
 
 ## References
 - [README Template](https://www.drupal.org/docs/develop/documenting-your-project/readme-template)
